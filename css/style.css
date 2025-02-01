@@ -1,0 +1,160 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-image: url('https://i.ibb.co/Vc65BDxY/dried-fruits-background.jpg');  /* Background image */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    text-align: center; /* Center text */
+}
+
+/* Header Section - Centered Title and Navigation */
+.index-header {
+    background-color: rgba(0, 128, 0, 0.7); /* Green with transparency */
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%; /* Set a max width to avoid it stretching too much */
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.index-header h1 {
+    margin: 0;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.index-header nav {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.index-header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.index-header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main Section with Title, Search Bar, and Background Image */
+.main-container {
+    width: 80%;
+    max-width: 800px; /* Set a max width for the main content */
+    margin-top: 50px;
+}
+
+.title-container h2 {
+    font-weight: bold;
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Search Bar */
+.search-bar {
+    margin: 30px 0;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+
+.search-bar button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-bar button:hover {
+    background-color: #45a049;
+}
+
+/* Food and Fruits Images Section */
+.food-images {
+    margin-top: 40px;
+}
+
+.food-images h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.food-images .image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.food-images img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Food Links Section */
+.food-links {
+    margin-top: 50px;
+    font-size: 1.2em;
+}
+
+.food-links h3 {
+    font-size: 28px;
+}
+
+.food-links ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.food-links li {
+    margin: 10px 0;
+}
+
+.food-links a {
+    color: #4CAF50;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.food-links a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+

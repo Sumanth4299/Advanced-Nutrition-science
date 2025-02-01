@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Nutrition Science</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="index-header">
+        <h1>Advanced Nutrition Science</h1>
+        <nav>
+            <a href="/">Home</a>
+            <a href="/research">Research</a>
+            <a href="/about">About</a>
+            <a href="/contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Main Section with Title, Search Bar, and Background Image -->
+    <main class="main-container">
+        <div class="title-container">
+            <h2>Exploring the World of Nutrition Science</h2>
+        </div>
+
+        <!-- Search Bar (Google Search) -->
+        <div class="search-bar">
+            <form action="https://www.google.com/search" method="get" target="_blank">
+                <input type="text" name="q" placeholder="Search Nutrition Science..." required>
+                <button type="submit">Search</button>
+            </form>
+        </div>
+
+        <!-- Food and Fruits Images Section -->
+        <div class="food-images">
+            <h3>Explore Healthy Foods</h3>
+            <div class="image-gallery">
+                <!-- Add high nutrition food/fruits images here -->
+                <img src="{{ url_for('static', filename='images/fruit1.jpg') }}" alt="Fruit 1">
+                <img src="{{ url_for('static', filename='images/fruit2.jpg') }}" alt="Fruit 2">
+                <img src="{{ url_for('static', filename='images/fruit3.jpg') }}" alt="Fruit 3">
+                <img src="{{ url_for('static', filename='images/fruit4.jpg') }}" alt="Fruit 4">
+            </div>
+        </div>
+
+        <!-- Example Food with Nutritional Information Links -->
+        <div class="food-links">
+            <h3>Popular Foods and Their Nutritional Information</h3>
+            <ul>
+                <li><a href="https://www.google.com/search?q=apple+nutritional+information" target="_blank">Apple</a></li>
+                <li><a href="https://www.google.com/search?q=banana+nutritional+information" target="_blank">Banana</a></li>
+                <li><a href="https://www.google.com/search?q=carrot+nutritional+information" target="_blank">Carrot</a></li>
+                <li><a href="https://www.google.com/search?q=spinach+nutritional+information" target="_blank">Spinach</a></li>
+                <li><a href="https://www.google.com/search?q=avocado+nutritional+information" target="_blank">Avocado</a></li>
+                <li><a href="https://www.google.com/search?q=chicken+nutritional+information" target="_blank">Chicken</a></li>
+            </ul>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Advanced Nutrition Science. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
+
